@@ -1,0 +1,53 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  
+}
+h1 {
+    font-size: 50px;
+    line-height: 0.8;
+    
+}
+.name-highlight {
+    color: orange;
+}
+
+.half-width {
+    width: 40%;
+    text-align: justify;
+    float: left;
+    margin-left: 5%;
+    padding: 10px;
+    
+}
+
+.half-width img{
+    width: 100%;
+    padding: 15px;
+}
+
+.upper-background {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 650px;
+   
+}
+
+.hire-me-btn {
+    display: inline-block;
+    border: 1px solid orange;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: linear-gradient(45deg, orange ,rgb(235, 95, 95));
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ a:hover {
+    background: linear-gradient(45deg, rgb(189, 123, 0) ,rgb(241, 6, 6)); 
+    color: wheat;
+}
