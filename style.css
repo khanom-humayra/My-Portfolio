@@ -1,14 +1,24 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-  
+
 }
+
 h1 {
     font-size: 50px;
     line-height: 0.8;
-    
+
 }
-.name-highlight {
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: dimgray;
+}
+
+.orange-highlight {
     color: orange;
 }
 
@@ -18,10 +28,10 @@ h1 {
     float: left;
     margin-left: 5%;
     padding: 10px;
-    
+
 }
 
-.half-width img{
+.half-width img {
     width: 100%;
     padding: 15px;
 }
@@ -33,7 +43,7 @@ h1 {
 
 section {
     height: 650px;
-   
+
 }
 
 .hire-me-btn {
@@ -41,13 +51,49 @@ section {
     border: 1px solid orange;
     padding: 10px 20px;
     text-decoration: none;
-    background: linear-gradient(45deg, orange ,rgb(235, 95, 95));
+    background: linear-gradient(45deg, orange, rgb(235, 95, 95));
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
- a:hover {
-    background: linear-gradient(45deg, rgb(189, 123, 0) ,rgb(241, 6, 6)); 
+a:hover {
+    background: linear-gradient(45deg, rgb(189, 123, 0), rgb(241, 6, 6));
     color: wheat;
+}
+
+.lower-background {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.experience-area {
+    background-image: url("images/exp-bg.png") ;   
+    background-repeat: no-repeat;
+    background-position: left;   
+    height: 500px;
+}
+
+.ex {
+    box-shadow: 10px 10px 45px #d4d4d4;
+    background-color: whitesmoke;
+}
+
+#ex_id1 {
+    border-left: 5px solid ;
+    border-image: linear-gradient(180deg,rgb(218, 67, 8), rgb(212, 147, 136));
+    border-image-slice: 1;
+}
+
+#ex_id2 {
+    border-left: 5px solid ;
+    border-image: linear-gradient(180deg,rgb(19, 62, 202), rgb(120, 132, 241));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(190, 190, 190)
 }
